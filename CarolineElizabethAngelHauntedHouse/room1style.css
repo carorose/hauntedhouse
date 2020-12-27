@@ -1,0 +1,288 @@
+ .roombgcolor {
+background-color: black;
+}
+
+
+.room {
+  background: url(images/roomComputerglow.jpg) no-repeat center;
+  background-size: 1000px;
+    -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 2s; /* Firefox < 16 */
+        -ms-animation: fadein 2s; /* Internet Explorer */
+         -o-animation: fadein 2s; /* Opera < 12.1 */
+            animation: fadein 2s;
+   width: 800px; 
+  height: 600px; 
+  margin: 0 100px;
+  position: relative;
+  z-index: 0;
+
+}
+
+.cellphone {
+  background: url(images/cproom.png) no-repeat center;
+  background-size: 1000px;
+  width: 800px;
+  height: 600px;
+  margin: 0 100px;
+  position: relative;
+  z-index: 0;
+}
+
+.hallway {
+  background: url(images/hallway.jpg) no-repeat center;
+  background-size: 1000px;
+    -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 2s; /* Firefox < 16 */
+        -ms-animation: fadein 2s; /* Internet Explorer */
+         -o-animation: fadein 2s; /* Opera < 12.1 */
+            animation: fadein 2s;
+   width: 800px;
+  height: 600px;
+  margin: 0 100px;
+  position: relative;
+  z-index: 0;
+  background-color: black;
+
+}
+
+.ghostroom {
+  background: url(images/ghostfade.gif) no-repeat center;
+  background-size: 1000px;
+    -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 2s; /* Firefox < 16 */
+        -ms-animation: fadein 2s; /* Internet Explorer */
+         -o-animation: fadein 2s; /* Opera < 12.1 */
+            animation: fadein 2s;
+   width: 800px;
+  height: 600px;
+  margin: 0 100px;
+  position: relative;
+  z-index: 0;
+  background-color: black;
+}
+
+.phonecall {
+  background: url(images/glitch.gif) no-repeat center;
+  background-size: 1000px;
+   width: 800px;
+  height: 600px;
+  margin: 0 100px;
+  position: relative;
+  z-index: 0;
+  background-color: black;
+}
+
+.outside {
+     background: url(images/houseoutside.jpg) no-repeat center;
+  background-size: 1000px;
+    -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 2s; /* Firefox < 16 */
+        -ms-animation: fadein 2s; /* Internet Explorer */
+         -o-animation: fadein 2s; /* Opera < 12.1 */
+            animation: fadein 2s;
+   width: 800px;
+  height: 600px;
+  margin: 0 100px;
+  position: relative;
+  z-index: 0;
+
+}
+
+
+.folder-page {
+     background: url(images/folder.png) no-repeat center;
+  background-size: 1000px;
+    -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 2s; /* Firefox < 16 */
+        -ms-animation: fadein 2s; /* Internet Explorer */
+         -o-animation: fadein 2s; /* Opera < 12.1 */
+            animation: fadein 2s;
+    background-color: black;
+   width: 800px;
+  height: 600px;
+  margin: 0 100px;
+  position: relative;
+  z-index: 0;
+
+}
+
+
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+.cover {
+    z-index: 1;
+    position: absolute;
+    background: rgba(0,0,0,0.7);
+    width: 1000px;
+    height: 645px;
+    top:78px;
+    pointer-events: none;
+
+}
+
+/*
+.buttons {
+    position: absolute;
+    z-index: 2;
+    width: 1000px;
+    height: 800px;
+    margin: 0 auto;
+    left: 0px;
+    top: 0px;
+  }
+*/
+
+
+/*buttons are transparent links that you position over the objects. Change the color from transparent to
+another color to see them and position them when placing */
+
+.room1button1 {
+    z-index: 2;
+    position:fixed;
+    top:320px;
+    left: 570px;
+    background: transparent;
+    border: none !important;
+    width:120px;
+    height: 95px;
+    margin: 0 auto;
+	cursor: crosshair;
+}
+
+.room1button2 {
+    margin: 0 auto;
+    z-index: 2;
+    position:fixed;
+   top:330px;
+    left: 680px;
+    background: transparent;
+    border: none !important;
+    width:100px;
+    height: 95px;
+    cursor: crosshair;
+
+}
+
+.cproombutton {
+    margin: 0 auto;
+    z-index: 2;
+    position:fixed;
+   top:520px;
+    left: 650px;
+    background: transparent;
+    border: none !important;
+    width:100px;
+    height: 95px;
+
+}
+
+
+
+.cproombutton:hover {
+  margin: 0 auto;
+    z-index: 2;
+     position:fixed;
+     top:520px;
+   left: 650px;
+      width:100px;
+    height: 95px;
+    cursor: crosshair;
+     background: transparent;
+}
+
+.button1:hover {
+    margin: 0 auto;
+    z-index: 2;
+     position:fixed;
+     top:400px;
+   left: 650px;
+      width:120px;
+    height: 95px;
+    cursor: crosshair;
+     background: transparent;
+}
+
+.button2:hover {
+    margin: 0 auto;
+    z-index: 2;
+  position:fixed;
+  cursor: crosshair;
+  background: transparent;
+    top:400px;
+    left:775px;
+    border: none !important;
+    width:100px;
+    height: 95px;
+
+}
+
+/* arrow pad. Change the cursor to crosshair if an arrow is active */
+
+.downarrow {
+    position:fixed;
+       bottom:9%;
+    left: 12%;
+    cursor: crosshair;
+}
+
+.uparrow {
+    position: fixed;
+    bottom: 21%;
+    left:12%;
+    cursor: crosshair;
+}
+
+.leftarrow {
+    position: fixed;
+    bottom: 15%;
+    left: 9%;
+    cursor: crosshair;
+}
+
+.rightarrow {
+    position: fixed;
+    bottom: 15%;
+    left: 15%;
+    cursor: crosshair;
+
+}
+
+#jump {
+    opacity: 1;
+    margin-left: -53%;
+    margin-top: -4%;
+    width: 50%;
+    position: absolute;
+    animation-name: example;
+    animation-duration: 12.75s;
+    z-index: 5;
+}
+
+#scare {
+    display: block;
+    margin:auto;
+    width: 320%;
+}

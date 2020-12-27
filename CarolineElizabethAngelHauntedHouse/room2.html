@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+
+<head>
+  <meta charset="UTF-8">
+      <link rel="stylesheet" href="css/room1style.css">  
+<!-- START SOUND CODE V4.1a HTML5 -->
+<script type="text/javascript">
+
+// PLAYER VARIABLES
+
+var mp3snd = "backgroundnoise1.wav";
+
+document.write('<audio autoplay="autoplay">');
+document.write('<source src="'+mp3snd+'" type="audio/mpeg">');
+document.write('<!--[if lt IE 9]>');
+document.write('<bgsound src="'+mp3snd+'" loop="100">');
+document.write('<![endif]-->');
+document.write('</audio>');
+
+</script>
+<br>
+
+</head>
+
+<body>
+
+
+  <div class="room2" data-game="room2">
+  
+  <div class="cover" data-game="torch"></div><!-- end cover div--> 
+  
+  </div><!-- end room div--> 
+  
+<!-- buttons that go over evidence -->		
+   <a href="Computer.html" class="room1button1"> </a>
+   <a href="folder.html" class="room1button2"> </a>
+  
+<!-- navigation at the bottom. Change the arrows to links depending on how many places/where they lead -->
+  <a href="hallway.html" class="downarrow"><img src="images/downarrow.png"/></a>
+  <img src="images/uparrow.png" class="uparrow">
+  <img src="images/leftarrow.png" class="leftarrow">
+    <img src="images/rightarrow.png" class="rightarrow">
+     <script src="js/room2.js"></script>
+
+</body>
+</html>

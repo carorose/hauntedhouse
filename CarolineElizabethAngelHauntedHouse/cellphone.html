@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<head>
+  <meta charset="UTF-8">
+      <link rel="stylesheet" href="room1style.css">  
+      
+<!-- START SOUND CODE V4.1a HTML5 -->
+<script type="text/javascript">
+
+// PLAYER VARIABLES
+
+var mp3snd = "audio/backgroundnoise3.mp3";
+
+document.write('<audio autoplay="autoplay">');
+document.write('<source src="'+mp3snd+'" type="audio/mpeg">');
+document.write('<!--[if lt IE 9]>');
+document.write('<bgsound src="'+mp3snd+'" loop="100">');
+document.write('<![endif]-->');
+document.write('</audio>');
+
+</script>
+<br>
+
+</head>
+
+<body class="roombgcolor">
+
+
+  <div class="cellphone" data-game="cellphone">
+  
+  <div class="cover" data-game="torch"></div><!-- end cover div--> 
+  
+  </div><!-- end room div--> 
+  
+<!-- buttons that go over evidence -->		
+   <a href="phonecall.html" class="cproombutton"> </a>
+<!-- navigation at the bottom. Change the arrows to links depending on how many places/where they lead -->
+  <a href="hallway.html" class="downarrow"><img src="images/downarrow.png"/></a>
+	<script src="js/cellphone.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+
+<head>
+  <meta charset="UTF-8">
+      <link rel="stylesheet" href="room1style.css">
+
+<!-- START SOUND CODE V4.1a HTML5 -->
+<script type="text/javascript">
+
+// PLAYER VARIABLES
+
+var mp3snd = "audio/backgroundnoise2.wav";
+
+document.write('<audio autoplay="autoplay">');
+document.write('<source src="'+mp3snd+'" type="audio/mpeg">');
+document.write('<!--[if lt IE 9]>');
+document.write('<bgsound src="'+mp3snd+'" loop="100">');
+document.write('<![endif]-->');
+document.write('</audio>');
+
+</script>
+<br>
+
+</head>
+
+<body class="roombgcolor">
+
+
+  <div class="hallway" data-game="hallway">
+
+  <div class="cover" data-game="torch"></div><!-- end cover div-->
+
+  </div><!-- end room div-->
+
+<!-- buttons that go over evidence -->
+
+
+<!-- navigation at the bottom. Change the arrows to links depending on how many places/where they lead -->
+  <img src="images/downarrow.png" class="downarrow"/>
+   <a href="ghostroom.html" class="uparrow"><img src="images/uparrow.png"></a>
+  <a href="room1.html" class="leftarrow"><img src="images/leftarrow.png"></a>
+   <a href="cellphone.html" class="rightarrow"><img src="images/rightarrow.png"></a>
+  <script src="js/hallway.js"></script>
+
+</body>
+</html>

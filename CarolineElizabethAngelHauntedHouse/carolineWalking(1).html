@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+
+<head>
+  <meta charset="UTF-8">
+      <link rel="stylesheet" href="style.css">
+
+    <!-- START SOUND CODE V4.1a HTML5 -->
+<script type="text/javascript">
+
+// PLAYER VARIABLES
+
+var mp3snd = "backgroundnoise2.wav";
+
+document.write('<audio autoplay="autoplay">');
+document.write('<source src="'+mp3snd+'" type="audio/mpeg">');
+document.write('<!--[if lt IE 9]>');
+document.write('<bgsound src="'+mp3snd+'" loop="100">');
+document.write('<![endif]-->');
+document.write('</audio>');
+
+</script>
+<br>
+<!-- END SOUND CODE V4.1a -->
+<meta http-equiv="refresh"content="14;url=houseOutside.html" />
+</head>
+
+<body class="walking">
+<video autoplay loop id="video-background" muted>
+  <source src="video/carolineWalking.mp4" type="video/mp4">
+</video>
+
+</body>
+</html>

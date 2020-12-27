@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html >
+<head>
+   <style>
+@import url('https://fonts.googleapis.com/css?family=VT323');
+</style>
+  <meta charset="UTF-8">
+  <title>Creepy Computer</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+
+<!-- START SOUND CODE V4.1a HTML5 -->
+<script type="text/javascript">
+
+// PLAYER VARIABLES
+
+var mp3snd = "audio/computerAudio2.wav";
+
+document.write('<audio autoplay="autoplay">');
+document.write('<source src="'+mp3snd+'" type="audio/mpeg">');
+document.write('<!--[if lt IE 9]>');
+document.write('<bgsound src="'+mp3snd+'" loop="1">');
+document.write('<![endif]-->');
+document.write('</audio>');
+
+</script>
+<br>
+<!-- END SOUND CODE V4.1a -->
+
+<meta http-equiv="refresh"content="13.1;url=room1.html" />
+
+</head>
+
+<body class="comp-page">
+    <div id="jump">
+        <img id="scare" src="images/scaryFace.gif">
+    </div>
+
+  <article>
+  <h1 id="headline">i see you</h1>
+  <p id="text"></p>
+
+ <!--reshuffle button we are not using at the moment
+     <button id="shuffler">Reshuffle</button>
+    --->
+
+</article>
+
+    <script src="js/indexcomputer.js"></script>
+
+</body>
+</html>

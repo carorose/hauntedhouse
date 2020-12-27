@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Haunted House</title>
+  <link href='https://fonts.googleapis.com/css?family=Chango' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="style.css">
+
+<!-- START SOUND CODE V4.1a HTML5 -->
+<script type="text/javascript">
+
+// PLAYER VARIABLES
+
+var mp3snd = "audio/houseparty.mp3";
+
+document.write('<audio autoplay="autoplay">');
+document.write('<source src="'+mp3snd+'" type="audio/mpeg">');
+document.write('<!--[if lt IE 9]>');
+document.write('<bgsound src="'+mp3snd+'" loop="100">');
+document.write('<![endif]-->');
+document.write('</audio>');
+
+</script>
+<br>
+<!-- END SOUND CODE V4.1a -->
+
+</head>
+
+<body class="home-page">
+  <div class="containerhome">
+  <h1 class="drunk">
+    <a href="page2walking.html"><span>Omgggggg,</span><br/>
+    <span>I'm so drunk!</span>
+      <span>Maybe I should go home...</a></span>
+  </h1>
+</div>
+
+
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1">
+  <defs>
+    <filter id="effect">
+      <feTurbulence id="turbulence" baseFrequency="0.007" numOctaves="4" seed="1"/>
+      <feDisplacementMap in="SourceGraphic" scale="40" />
+    </filter>
+  </defs>
+</svg>
+
+    <script src="js/indexhome.js"></script>
+
+</body>
+</html>
