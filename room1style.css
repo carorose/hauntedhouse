@@ -136,6 +136,7 @@ background-color: black;
     z-index: 1;
     height: 645px;
     pointer-events: none;
+    background: rgba(0, 0, 0, 0.7);
 
 }
 
